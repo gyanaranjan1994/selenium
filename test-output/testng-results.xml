@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[broser load]]>
+    </line>
+    <line>
+      <![CDATA[open url]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="34231" started-at="2018-09-24T05:14:17Z" finished-at="2018-09-24T05:14:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="34231" started-at="2018-09-24T05:14:17Z" finished-at="2018-09-24T05:14:51Z">
+      <class name="testng.TestNgReport">
+        <test-method status="PASS" signature="verifyTitel()[pri:0, instance:testng.TestNgReport@7921b0a2]" name="verifyTitel" duration-ms="34185" started-at="2018-09-24T10:44:17Z" finished-at="2018-09-24T10:44:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[broser load]]>
+            </line>
+            <line>
+              <![CDATA[open url]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitel -->
+      </class> <!-- testng.TestNgReport -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
