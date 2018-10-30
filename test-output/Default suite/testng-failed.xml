@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="project1.StringProgram">
+      <class name="listner.TestCases">
         <methods>
-          <include name="setUp"/>
+          <include name="TestToFail"/>
+          <include name="Login"/>
         </methods>
-      </class> <!-- project1.StringProgram -->
+      </class> <!-- listner.TestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
