@@ -15,10 +15,11 @@ public class Recursive {
 			}
 			else
 			{
-				return revers(str.substring(1, str.length()))+str.charAt(0);
+				 //return revers(str.substring(1, str.length()))+str.charAt(0);
+				return str.charAt(str.length()-1)+revers(str.substring(0, str.length()-1));
 			}
 			
-					
+				
 		}
 	}
 
